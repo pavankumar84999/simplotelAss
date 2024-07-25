@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-image: linear-gradient(to right, #f54284, #f5a742);
+    height: 110vw;
+    width: 100vw;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+
+.top-container {
+    background-image: url("https://i.ibb.co/RvFwcLQ/img1.jpg");
+    height: 100vw;
+    width: 100vw;
+    background-size: cover;
+    overflow: auto;
+}
+
+.top-container-heading {
+    color: #ffffff;
+    width: 230px;
+    height: 120px;
+    background-color: #FF7A33;
+    background: rgba(255, 0, 0, 0.4);
+    opacity: 0.8;
+    padding: 5px;
+    font-family: "Lucida console";
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 10px;
+
+
+}
+
+.heading {
+    opacity: 3.0;
+}
+
+.dashboard {
+    font-size: 8px;
+    font-family: Garamond;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+.icons {
+    margin-top: 12px;
+    font-size: 15px;
+
+}
+
+.bottom-container {
+    background-image: linear-gradient(to right, #f54284, #f5a742);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.item-container {
+    background-color: #ffffff;
+    width: 230px;
+    height: 300px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    margin: 20px;
+    font-size: 13px;
+    padding: 15px;
+
+
+}
+
+img {
+    width: 90px;
+    height: 100px;
+    border-top-right-radius: 30px;
+}
+
+.bottom-container-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: auto
+}
+
+.item-head {
+    font-size: 20px;
+    font-family: "monaco";
+}
+
+.bottom-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    padding-top: 10px;
+}
+
+@media screen and (min-width:768px) {
+    img {
+        width: 190px;
+        height: 200px;
+    }
+
+    .top-container-heading {
+        color: #ffffff;
+        width: 600px;
+        height: 400px;
+        background-color: #FF7A33;
+        background: rgba(255, 0, 0, 0.4);
+        opacity: 0.8;
+        padding: 15px;
+        font-family: "Lucida console";
+        margin: 110px;
+        margin-top: 150px;
+        font-size: 15px;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .top-container-heading {
+        color: #ffffff;
+        width: 500px;
+        background-color: #FF7A33;
+        background: rgba(255, 0, 0, 0.4);
+        opacity: 0.8;
+        padding: 5px;
+        font-family: "Lucida console";
+        margin: 20px;
+        margin-top: 100px;
+        font-size: 25px;
+
+    }
+
+    .item-container {
+        background-color: #ffffff;
+        width: 230px;
+        height: 300px;
+        border-bottom-left-radius: 50px;
+        text-align: center;
+        margin: 20px;
+        font-size: 13px;
+        padding: 15px;
+
+
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .top-container-heading {
+        color: #ffffff;
+        width: 800px;
+        height: 370px;
+        background-color: #FF7A33;
+        background: rgba(255, 0, 0, 0.4);
+        opacity: 0.8;
+        padding: 5px;
+        font-family: "Lucida console";
+        margin: 50px;
+        margin-top: 300px;
+        font-size: 32px;
+        padding: 20px;
+
+    }
+
+    .bottom-container {
+        background-image: linear-gradient(to right, #f54284, #f5a742);
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    img {
+        width: 190px;
+        height: 180px;
+    }
+
+    .item-container {
+        background-color: #ffffff;
+        width: 350px;
+        height: 330px;
+        border-bottom-left-radius: 50px;
+        text-align: center;
+        margin: 20px;
+        font-size: 13px;
+        padding: 20px;
+    }
+
+    .item-head {
+        font-size: 35px;
+    }
+
+    .item-context {
+        font-size: 20px;
+    }
+}
